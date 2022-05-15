@@ -14,3 +14,36 @@ a {
 * {
   box-sizing: border-box;
 }
+.code {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.product-container{
+  text-align: center;
+  margin: 40px 0px;
+  color: #324d67;
+  line-height: 3px;
+ 
+ 
+}
+
+.product-content{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  
+}
+.product-container h2{
+  font-size: 40px;
+  font-weight: 800;
+  font-family: Volkhov;
+}
+.product-container p{
+  font-size: 15px;
+  font-weight: 100;
+  font-family: Poppins;
+}
